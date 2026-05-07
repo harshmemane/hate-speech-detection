@@ -5,7 +5,7 @@ import pickle
 import os
 
 # ── Load model ──────────────────────────────────────────
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "hate_speech_model.pkl")
+MODEL_PATH = "/app/hate_speech_model.pkl"
 
 with open(MODEL_PATH, "rb") as f:
     bundle = pickle.load(f)
